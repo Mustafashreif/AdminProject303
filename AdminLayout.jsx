@@ -17,12 +17,13 @@ const AdminLayout = ({ children }) => {
         <p>Dashboard</p>
         <p>Users</p>
       </aside>
-      <main style={{ flex: 1, padding: "20px" ,display:"flex",flexDirection:"column,",justifyContent:"center",alignItems:"center"}}>
+      <main style={{ flex: 1, padding: "20px" ,display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <button onClick={handleLogout}>Logout</button>
         {children}
       </main>
     </div>
   );
 };
+
 
 export default AdminLayout;
